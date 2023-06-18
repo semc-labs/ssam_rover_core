@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ssam_rover_core</name>
+  <version>0.9.0</version>
+  <description>Core functionality of the ssam_rover, a rover designed to be part of a swarm scouting and mapping mision areas</description>
+  <maintainer email="tiberiu.savin@nexusaurora.com">Tiberiu Savin</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
