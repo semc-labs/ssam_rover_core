@@ -4,7 +4,8 @@
     <xacro:arg name="use_ros2_control" default="true" />
 
     <xacro:include filename="robot_core.xacro" />
-    <xacro:include filename="lidar.xacro" />
+    <xacro:include filename="stereo_camera.xacro" />
+    <xacro:include filename="depth_camera.xacro" />
 
     <xacro:if value="$(arg use_ros2_control)">
         <xacro:include filename="ros2_control.xacro" />
@@ -15,8 +16,7 @@
     </xacro:unless>
     
     <!-- 
-        
-        <xacro:include filename="camera.xacro" /
+        <xacro:include filename="lidar.xacro" />
         <xacro:include filename="depth_camera.xacro" />
     -->    
 </robot>

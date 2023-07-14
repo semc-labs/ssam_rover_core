@@ -63,5 +63,5 @@ def generate_launch_description():
         spawn_entity,
         joint_broad_spawner,
         diff_drive_spawner,
-        TimerAction(period=3.0, actions=[slam_launch])
+        # TimerAction(period=3.0, actions=[slam_launch])
     ])
